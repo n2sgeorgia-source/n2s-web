@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>n2s - Digital Content Creation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <a href="#" class="logo">n2s</a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-label"><span class="dot"></span> Based in Georgia</div>
+      <h1>We Build<br><span class="gradient">Digital Experiences</span></h1>
+      <p>Apps, YouTube, content production &mdash; we turn ideas into polished digital products.</p>
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-grid"></div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container">
+      <span class="section-label">What We Do</span>
+      <h2 class="section-title">Our Services</h2>
+      <div class="cards-3">
+        <div class="card">
+          <div class="card-icon card-icon--blue">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>App Development</h3>
+          <p>Custom web and mobile applications. From concept to deployment, we bring your ideas to life with clean, performant code.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon card-icon--red">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+          </div>
+          <h3>YouTube Management</h3>
+          <p>End-to-end channel management: video editing, thumbnail design, SEO optimization, analytics, and growth strategy.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon card-icon--green">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Content Production</h3>
+          <p>Creative digital content for brands and creators. Engaging stories crafted across multiple platforms.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="section section--alt">
+    <div class="container">
+      <span class="section-label">Our Work</span>
+      <h2 class="section-title">Selected Projects</h2>
+      <div class="portfolio-list">
+
+        <div class="project">
+          <div class="project-visual project-visual--training">
+            <div class="project-mockup">
+              <div class="mockup-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-content">
+                <div class="mockup-stat">
+                  <span class="mockup-stat-number">109</span>
+                  <span class="mockup-stat-label">days</span>
+                </div>
+                <div class="mockup-row"><div class="mockup-bar-h" style="width:70%"></div></div>
+                <div class="mockup-row"><div class="mockup-bar-h" style="width:45%"></div></div>
+                <div class="mockup-row"><div class="mockup-bar-h" style="width:85%"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Web App</span>
+            <h3>Training Application</h3>
+            <p>A comprehensive training management platform for athletes. Dashboard with competition countdowns, session tracking, training streaks, and performance analytics.</p>
+            <ul class="project-tech">
+              <li>Dashboard</li>
+              <li>Analytics</li>
+              <li>Real-time</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project project--reverse">
+          <div class="project-visual project-visual--ski">
+            <div class="project-mockup">
+              <div class="mockup-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-content">
+                <div class="mockup-table">
+                  <div class="mockup-table-row"><span class="rank">1</span><span class="name-bar"></span><span class="score">142.5</span></div>
+                  <div class="mockup-table-row"><span class="rank">2</span><span class="name-bar"></span><span class="score">139.8</span></div>
+                  <div class="mockup-table-row"><span class="rank">3</span><span class="name-bar"></span><span class="score">137.2</span></div>
+                  <div class="mockup-table-row"><span class="rank">4</span><span class="name-bar"></span><span class="score">135.0</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Web App</span>
+            <h3>Ski Jumping Results</h3>
+            <p>Real-time results application for ski jumping competitions. Live scoring, rankings, and detailed athlete statistics updated during events.</p>
+            <ul class="project-tech">
+              <li>Live Scores</li>
+              <li>Rankings</li>
+              <li>Statistics</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-visual project-visual--yt">
+            <div class="project-mockup project-mockup--yt">
+              <div class="yt-thumb"><div class="yt-play"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+              <div class="yt-thumb"><div class="yt-play"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+              <div class="yt-thumb"><div class="yt-play"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag project-tag--red">YouTube</span>
+            <h3>Channel Management</h3>
+            <p>Full-service YouTube channel operation: video editing, content strategy, audience growth, and channel optimization for creators and businesses.</p>
+            <ul class="project-tech">
+              <li>Editing</li>
+              <li>Strategy</li>
+              <li>Growth</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-layout">
+        <div class="about-text">
+          <span class="section-label">Who We Are</span>
+          <h2 class="section-title section-title--left">About n2s</h2>
+          <p>Based in <strong>Georgia</strong>, n2s is a digital content creation studio specializing in app development and YouTube management.</p>
+          <p>We combine technical expertise with creative vision to deliver digital solutions that drive results. From custom web applications to full-service video production, we help businesses and creators build their digital presence.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number" data-target="2">0</span>
+            <span class="stat-label">Apps Shipped</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-target="100">0</span>
+            <span class="stat-label">Videos Edited</span>
+          </div>
+          <div class="stat-card stat-card--accent">
+            <span class="stat-number" data-target="100">0</span>
+            <span class="stat-label">% Passion</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">&infin;</span>
+            <span class="stat-label">Ideas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section--alt">
+    <div class="container">
+      <span class="section-label">Contact</span>
+      <h2 class="section-title">Work With Us</h2>
+      <div class="contact-offline">
+        <div class="offline-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <p class="offline-text">We work with clients through <strong>direct, in-person connections</strong>.<br>If you're in Georgia and interested in working together, let's meet.</p>
+        <div class="offline-location">
+          <span>Georgia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <span class="logo">n2s</span>
+      <p>&copy; 2026 n2s. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      toggle.classList.toggle('active');
+    });
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        toggle.classList.remove('active');
+      });
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.08 });
+
+    document.querySelectorAll('.card, .project, .about-layout, .contact-layout').forEach(el => {
+      el.classList.add('reveal');
+      observer.observe(el);
+    });
+
+    // Counter
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.querySelectorAll('.stat-number[data-target]').forEach(counter => {
+            const target = +counter.dataset.target;
+            const start = performance.now();
+            function update(now) {
+              const p = Math.min((now - start) / 1200, 1);
+              counter.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+              if (p < 1) requestAnimationFrame(update);
+            }
+            requestAnimationFrame(update);
+          });
+          counterObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    const stats = document.querySelector('.about-stats');
+    if (stats) counterObserver.observe(stats);
+
+    // Parallax on hero
+    window.addEventListener('scroll', () => {
+      const hero = document.querySelector('.hero-content');
+      if (hero) hero.style.transform = `translateY(${window.scrollY * 0.15}px)`;
+    }, { passive: true });
+  </script>
+
+</body>
+</html>
